@@ -1,0 +1,23 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - tests
+    excludePaths:
+        - tests/Integration/DIContainerIntegrationTest.php
+    ignoreErrors:
+        - '#Call to an undefined method object::#'
+        - '#Parameter \#1 \$router of method .* expects .*, object\|null given#'
+        - '#Offset .* does not exist on array\|null#'
+        - '#Property .* is never read, only written#'
+        - '#Instantiated class HighPerApp\\HighPer\\Foundation\\.* not found#'
+        - '#Class HighPerApp\\HighPer\\Foundation\\.* not found#'
+        - '#Anonymous class implements unknown interface HighPerApp\\HighPer\\Contracts\\.*#'
+        - '#Anonymous function has an unused use#'
+        - '#Parameter \#1 \$objectOrClass of class ReflectionClass constructor expects class-string.*#'
+        - '#Call to an undefined method ReflectionType::isBuiltin\(\)#'
+        -
+            identifier: missingType.iterableValue
+        -
+            identifier: missingType.generics
+    reportUnmatchedIgnoredErrors: false
