@@ -183,8 +183,6 @@ vendor/bin/phpunit --testsuite=Performance
 - **Cache Performance**: Persistent compiled container storage
 - **Framework Agnostic**: Same performance benefits in any environment
 
-## 🆕 **What's New**
-
 ### ✨ **Major Features**
 - **ContainerCompiler**: Build-time compilation for maximum performance
 - **Enhanced Object Pooling**: Advanced memory management strategies
